@@ -17,11 +17,13 @@ export default function Home() {
           </h2>
           
           {/* Заменяем обычный img на next/image */}
-          <img
-            src="/images/nextjs01.webp"
+
+		  <Image 
+		  	src="/images/nextjs01.webp"
             alt="Example"
             className="w-full h-64 object-cover rounded"
-          />
+			width={800}
+			height={400}/>
           
           <p className={`text-gray-600 mt-4 ${inter.className}`}>
             This image should be optimized using next/image component
