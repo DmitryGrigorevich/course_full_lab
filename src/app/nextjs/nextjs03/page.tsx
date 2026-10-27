@@ -23,7 +23,7 @@ export default function Home() {
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover rounded"
-                  loading="eager"
+                  loading="lazy"
                 />
                 <p className="text-sm text-gray-600 mt-2">Image 1</p>
               </div>
@@ -35,7 +35,7 @@ export default function Home() {
                   width={400}
                   height={300}
                   className="w-full h-48 object-cover rounded"
-                  loading="eager"
+                  loading="lazy"
                 />
                 <p className="text-sm text-gray-600 mt-2">Image 2</p>
               </div>
